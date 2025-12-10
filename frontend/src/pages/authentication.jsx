@@ -51,7 +51,7 @@ export default function Authentication() {
                 let result = await handleRegister(name, username, password);
                 console.log(result);
                 setUsername("");
-                setMessage(result);
+                setMessage(result); 
                 setOpen(true);
                 setError("")
                 setFormState(0)
